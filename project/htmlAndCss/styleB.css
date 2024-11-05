@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Tahoma, sans-serif;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    gap: 10px;  /* 10px spacing between boxes */
+    padding: 0;
+    white-space: nowrap;  /* Prevents wrapping */
+    overflow-x: auto;    /* Allows horizontal scrolling if needed */
+}
+
+.box {
+    width: 100px;       /* Width as specified */
+    height: 150px;      /* Height as specified */
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;  /* Dotted line on the left */
+    display: flex;
+    align-items: center;      /* Center content vertically */
+    justify-content: center;  /* Center content horizontally */
+    font-size: 40px;         /* Font size as specified */
+    padding: 10px;           /* Space between text and box edge */
+    box-sizing: border-box;  /* Include padding in box dimensions */
+    cursor: pointer;         /* Hand cursor on hover */
+}
+
+.box:hover {
+    background-color: yellow;    /* Yellow background on hover */
+    color: goldenrod;           /* Goldenrod text on hover */
+}
+
+#boxF {
+    position: fixed;    /* Fixed positioning */
+    bottom: 0;         /* Align to bottom */
+    right: 0;         /* Align to right */
+}

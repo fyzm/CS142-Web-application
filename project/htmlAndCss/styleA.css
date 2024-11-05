@@ -1,0 +1,42 @@
+#container {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#A, #B, #C, #D, #E, #F {
+    text-align: center;
+    background-color: #eeeeee;
+    border: 1px solid blue;
+}
+
+#A {
+    height: 100px;
+    margin-bottom: 1px;
+}
+
+#B {
+    height: 100px;
+    margin-bottom: 1px;
+}
+
+#C {
+    height: 100px;
+    margin-bottom: 1px;
+}
+
+#D {
+    height: 40px;
+    margin-bottom: 1px;
+}
+
+#E {
+    height: 100px;
+    margin-bottom: 4px;
+}
+
+#F {
+    height: 100px;
+    width: 100px;
+    background-color: #666666;
+    color: white;
+}
